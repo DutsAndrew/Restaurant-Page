@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.content {
+    background-color: #CCE6F4;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+}
+
+.header {
+    background-color: #BA324F;
+    width: 80vw;
+    height: 20vh;
+    height: auto;
+    overflow: scroll;
+}
+
+.header-text {
+    color: black;
+    background-color: white;
+    font-size: 12px;
+}
