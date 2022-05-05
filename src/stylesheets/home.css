@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    background-color: #CCE6F4;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;    
+}
+
+.header-text {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    margin-top: 5px;
+    color: black;
+    background-color: white;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.menu-button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 12em;
+    height: 3em;
+    color: black;
+    background-color: white;
+}
+
+.home-svg {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background: center no-repeat url('../imgs/svgs/home.svg');
+}
+
+.menu-svg {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background: center no-repeat url('../imgs/svgs/menu.svg');
+}
+
+.banner-img {
+    background: center / contain no-repeat url('../imgs/coffee-shop-img.jpg');
+    object-fit: contain;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    flex: 1 1 auto;
+    width: 80vw;
+    height: 40vh;
+}
