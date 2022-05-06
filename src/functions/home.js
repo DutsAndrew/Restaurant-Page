@@ -1,3 +1,7 @@
+export {
+    loadHomePage,
+};
+
 const loadHomePage = () => {
     
     // Header items and Website Title
@@ -6,14 +10,17 @@ const loadHomePage = () => {
 
     const header = document.createElement('div');
     header.classList.add('header');
+    header.setAttribute('id', 'home-header');
 
-    const headerParagraph = document.createElement('p');
-    headerParagraph.textContent = "Skrrt Café";
-    headerParagraph.classList.add('header-text');
+    const websiteTitle = document.createElement('p');
+    websiteTitle.textContent = "Skrrt Café";
+    websiteTitle.classList.add('header-text');
+    websiteTitle.setAttribute('id', 'website-title');
 
     // Buttons for the menu bar at the top
     const buttonContainer = document.createElement('div');
     buttonContainer.classList.add('menu-button-container');
+    buttonContainer.setAttribute('id', 'menu-buttons');
 
         const homeButton = document.createElement('button');
             const homeImage = document.createElement('div');
@@ -25,6 +32,7 @@ const loadHomePage = () => {
             homeText.classList.add('menu-item-text');
             homeButton.appendChild(homeText);
             homeButton.classList.add('menu-buttons');
+            homeButton.setAttribute('id', 'home-button');
 
         const menuButton = document.createElement('button');
             const menuImage = document.createElement('div');
@@ -36,6 +44,7 @@ const loadHomePage = () => {
             menuText.classList.add('menu-item-text');
             menuButton.appendChild(menuText);
             menuButton.classList.add('menu-buttons');
+            menuButton.setAttribute('id', 'menu-button');
 
         const aboutButton = document.createElement('button');
             const aboutImage = document.createElement('div');
@@ -47,14 +56,17 @@ const loadHomePage = () => {
             aboutText.classList.add('menu-item-text');
             aboutButton.appendChild(aboutText);
             aboutButton.classList.add('menu-buttons');
+            aboutButton.setAttribute('id', 'about-button');
 
     // Banner Image for Main Page
     const bannerImage = document.createElement('div');
     bannerImage.classList.add('banner-img');
+    bannerImage.setAttribute('id', 'banner-img');
 
     // Store Hours displayed on Home Page
     const storeHoursContainer = document.createElement('div');
         storeHoursContainer.classList.add('store-hours-container');
+        storeHoursContainer.setAttribute('id', 'store-hours-container');
         const storeHoursTable = document.createElement('table');
         const storeHoursCaption = document.createElement('caption');
             storeHoursCaption.textContent = "Skkrt Café - Store Hours";
@@ -131,13 +143,9 @@ const loadHomePage = () => {
     buttonContainer.appendChild(menuButton);
     buttonContainer.appendChild(aboutButton);
 
-    header.appendChild(headerParagraph);
+    header.appendChild(websiteTitle);
     header.appendChild(buttonContainer);
     header.appendChild(bannerImage);
     header.appendChild(storeHoursContainer);
     content.appendChild(header);
-};
-
-export {
-    loadHomePage
 };

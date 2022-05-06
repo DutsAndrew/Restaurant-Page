@@ -96,6 +96,13 @@ body {
     height: 15vh;
 }
 
+/* Animation Styling */
+button:hover {
+    background-color: #CCE6F4;
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
 /* Style for the Data Table */
 table {
     border-collapse: collapse;
