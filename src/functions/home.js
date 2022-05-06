@@ -4,17 +4,13 @@ export {
 
 const loadHomePage = () => {
     
-    // Header items and Website Title
+    // content items and Website Title
     const content = document.querySelector('#content');
     content.classList.add('content');
 
-    const header = document.createElement('div');
-    header.classList.add('header');
-    header.setAttribute('id', 'home-header');
-
     const websiteTitle = document.createElement('p');
     websiteTitle.textContent = "Skrrt Café";
-    websiteTitle.classList.add('header-text');
+    websiteTitle.classList.add('content-text');
     websiteTitle.setAttribute('id', 'website-title');
 
     // Buttons for the menu bar at the top
@@ -72,10 +68,10 @@ const loadHomePage = () => {
             storeHoursCaption.textContent = "Skkrt Café - Store Hours";
         const storeHoursTableHead = document.createElement('thead');
         const storeHoursTableRow = document.createElement('trow');
-        const storeHoursDayHeader = document.createElement('th');
-            storeHoursDayHeader.textContent = "Days Open";
-        const storeHoursHoursHeader = document.createElement('th');
-            storeHoursHoursHeader.textContent = "Hours";
+        const storeHoursDaycontent = document.createElement('th');
+            storeHoursDaycontent.textContent = "Days Open";
+        const storeHoursHourscontent = document.createElement('th');
+            storeHoursHourscontent.textContent = "Hours";
 
         const storeHoursTableBody = document.createElement('tbody');
         const storeHoursTableBodyRowDays = document.createElement('tr');
@@ -143,9 +139,8 @@ const loadHomePage = () => {
     buttonContainer.appendChild(menuButton);
     buttonContainer.appendChild(aboutButton);
 
-    header.appendChild(websiteTitle);
-    header.appendChild(buttonContainer);
-    header.appendChild(bannerImage);
-    header.appendChild(storeHoursContainer);
-    content.appendChild(header);
+    content.appendChild(websiteTitle);
+    content.appendChild(buttonContainer);
+    content.appendChild(bannerImage);
+    content.appendChild(storeHoursContainer);
 };
