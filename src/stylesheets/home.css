@@ -19,7 +19,7 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     width: 80vw;
-    height: 40vh;    
+    height: 100vh;    
 }
 
 .header-text {
@@ -76,18 +76,15 @@ body {
 }
 
 .banner-img {
-    background: center / contain no-repeat url('../imgs/coffee-shop-img.jpg');
-    object-fit: contain;
+    background: center / cover no-repeat url('../imgs/coffee-shop-img.jpg');
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    margin: auto;
-    flex: 1 1 auto;
     width: 80vw;
-    height: 40vh;
+    height: 60vh;
 }
 
 .store-hours-container {
@@ -95,7 +92,7 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: auto;
     height: 15vh;
 }
 
@@ -105,6 +102,7 @@ table {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    font-weight: 500;
   }
   
   td, th {
