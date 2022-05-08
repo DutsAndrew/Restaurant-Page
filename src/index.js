@@ -14,7 +14,7 @@ loadHomePage();
     let currentPage = "home";
 
     // DOM elements that remain on the page
-        const content = document.getElementById('content');
+        const content = document.querySelector('#content');
     // DOM elements that will be added and removed
         const bannerImage = document.getElementById('home-page-img');
         const storeHoursContainer = document.getElementById('store-hours');
@@ -26,15 +26,15 @@ loadHomePage();
             if (currentPage == "home") {
                 console.log("Home Page was clicked!");
                 return
-            } else {
+            } else if (currentPage != "home") {
                 currentPage = "home";
                 if (document.getElementById('home-page-img') && document.getElementById('store-hours')){
                     content.removeChild(bannerImage);
                     content.removeChild(storeHoursContainer);
-                } else {
-                    console.log("Home Page was clicked!");
-                    reLoadHome();
                 }
+                reLoadHome();
+            } else {
+                return
             }
         };
 
@@ -45,14 +45,15 @@ loadHomePage();
             if (currentPage == "menu") {
                 console.log("Menu Page was clicked!");
                 return
-            } else {
+            } else if (currentPage != "menu") {
                 currentPage = "menu";
                 if(document.getElementById('home-page-img') && document.getElementById('store-hours')){
                     content.removeChild(bannerImage);
                     content.removeChild(storeHoursContainer);
-                } else {
-                    console.log("Menu Page was clicked!");
                 }
+                loadMenuPage();
+            } else {
+                return
             }
         };
 
@@ -63,13 +64,14 @@ loadHomePage();
             if (currentPage == "about") {
                 console.log("About Page was clicked!");
                 return
-            } else {
+            } else if (currentPage != "about") {
                 currentPage = "about";
                 if(document.getElementById('home-page-img') && document.getElementById('store-hours')){
                     content.removeChild(bannerImage);
                     content.removeChild(storeHoursContainer);
-                } else {
-                    console.log("About Page was clicked!");
                 }
+                loadAboutPage();
+            } else {
+                return
             }
         };

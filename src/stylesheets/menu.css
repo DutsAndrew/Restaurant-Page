@@ -1,0 +1,71 @@
+.menu-container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.food-items {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.food-imgs {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.coffee-specials-items {
+    
+}
+
+#breakfast-options {
+
+}
+
+#lunch-options {
+
+}
+
+#coffee-specials-options {
+
+}
+
+.breakfast-items {
+
+}
+
+.lunch-options {
+
+}
+
+.lunch-items {
+
+}
+
+.menu-imgs {
+
+}
+
+.menu-item-text {
+
+}
