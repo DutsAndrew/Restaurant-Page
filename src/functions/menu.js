@@ -26,6 +26,7 @@ const loadMenuPage = function() {
 
                 const icedLatteImg = document.createElement('img');
                     icedLatteImg.classList.add('menu-imgs');
+                    icedLatteImg.src = "../imgs/menu-imgs/coffee/iced-latte.jpg";
 
                 const icedLatteDescription = document.createElement('p');
                     icedLatteDescription.classList.add('menu-items-text');
@@ -48,6 +49,7 @@ const loadMenuPage = function() {
 
                 const latteImg = document.createElement('img');
                     latteImg.classList.add('menu-imgs');
+                    latteImg.src = "../imgs/menu-imgs/coffee/latte.jpg";
 
                 const latteDescription = document.createElement('p');
                     latteDescription.classList.add('menu-items-text');
@@ -69,6 +71,7 @@ const loadMenuPage = function() {
 
                 const cappucinoImg = document.createElement('img');
                     cappucinoImg.classList.add('menu-imgs');
+                    cappucinoImg.src = "../imgs/menu-imgs/coffee/cappucino.jpg";
 
                 const cappucinoDescription = document.createElement('p');
                     cappucinoDescription.classList.add('menu-items-text');
@@ -90,6 +93,7 @@ const loadMenuPage = function() {
 
                 const cortadoImg = document.createElement('img');
                     cortadoImg.classList.add('menu-imgs');
+                    cortadoImg.src = "../imgs/menu-imgs/coffee/cortado.jpg";
 
                 const cortadoDescription = document.createElement('p');
                     cortadoDescription.classList.add('menu-items-text');
@@ -112,6 +116,7 @@ const loadMenuPage = function() {
             
                 const americanoImg = document.createElement('img');
                     americanoImg.classList.add('menu-imgs');
+                    americanoImg.src = "../imgs/menu-imgs/coffee/americano.jpg";
 
                 const americanoDescription = document.createElement('p');
                     americanoDescription.classList.add('menu-items-text');
@@ -133,6 +138,7 @@ const loadMenuPage = function() {
 
                 const affogatoImg = document.createElement('img');
                     affogatoImg.classList.add('menu-imgs');
+                    affogatoImg.src = "../imgs/menu-imgs/coffee/affogato.jpg";
 
                 const affogatoDescription = document.createElement('p');
                     affogatoDescription.classList.add('menu-items-text');
@@ -159,6 +165,7 @@ const loadMenuPage = function() {
 
                 const breakfastWafflesImg = document.createElement('img');
                     breakfastWafflesImg.classList.add('menu-imgs');
+                    breakfastWafflesImg.src = "../imgs/menu-imgs/breakfast/waffles.jpg";
 
                 const breakfastWafflesDescription = document.createElement('p');
                     breakfastWafflesDescription.classList.add('menu-items-text');
@@ -180,6 +187,7 @@ const loadMenuPage = function() {
 
                 const breakfastMuffinsImg = document.createElement('img');
                     breakfastMuffinsImg.classList.add('menu-imgs');
+                    breakfastMuffinsImg.src = "../imgs/menu-imgs/breakfast/muffins.jpg";
 
                 const breakfastMuffinsDescription = document.createElement('p');
                     breakfastMuffinsDescription.classList.add('menu-items-text');
@@ -201,6 +209,7 @@ const loadMenuPage = function() {
 
                 const breakfastSandwichImg = document.createElement('img');
                     breakfastSandwichImg.classList.add('menu-imgs');
+                    breakfastSandwichImg.src = "../imgs/menu-imgs/breakfast/sandwich.jpg";
 
                 const breakfastSandwichDescription = document.createElement('p');
                     breakfastSandwichDescription.classList.add('menu-items-text');
@@ -227,6 +236,7 @@ const loadMenuPage = function() {
 
                 const lunchPaniniImg = document.createElement('img');
                     lunchPaniniImg.classList.add('menu-imgs');
+                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/panini.jpg";
 
                 const lunchPaniniDescription = document.createElement('p');
                     lunchPaniniDescription.classList.add('menu-items-text');
@@ -248,6 +258,7 @@ const loadMenuPage = function() {
 
                 const lunchSweetPotatoBowlImg = document.createElement('img');
                     lunchSweetPotatoBowlImg.classList.add('menu-imgs');
+                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/sweet-potato-bowl.jpg";
 
                 const lunchSweetPotatoBowlDescription = document.createElement('p');
                     lunchSweetPotatoBowlDescription.classList.add('menu-items-text');
@@ -269,6 +280,7 @@ const loadMenuPage = function() {
 
                 const lunchPizzaImg = document.createElement('img');
                     lunchPizzaImg.classList.add('menu-imgs');
+                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/pizza.jpg";
 
                 const lunchPizzaDescription = document.createElement('p');
                     lunchPizzaDescription.classList.add('menu-items-text');
