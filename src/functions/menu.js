@@ -16,6 +16,11 @@ const loadMenuPage = function() {
         const coffeeSpecials = document.createElement('div');
             coffeeSpecials.classList.add('food-items');
             coffeeSpecials.setAttribute('id', 'coffee-specials-options');
+            
+            const coffeeTitle = document.createElement('h3');
+                coffeeTitle.classList.add('menu-title');
+                coffeeTitle.textContent = "~ Specialty Coffee ~";
+                coffeeTitle.setAttribute('id', 'coffee-title');
 
             const icedLatte = document.createElement('div');
                 icedLatte.classList.add('coffee-specials-items');
@@ -23,16 +28,19 @@ const loadMenuPage = function() {
 
                 const icedLatteTitle = document.createElement('p');
                     icedLatteTitle.classList.add('menu-items-text');
+                    icedLatteTitle.textContent = "Iced Latte"
 
                 const icedLatteImg = document.createElement('img');
                     icedLatteImg.classList.add('menu-imgs');
-                    icedLatteImg.src = "../imgs/menu-imgs/coffee/iced-latte.jpg";
+                    icedLatteImg.src = "../src/imgs/menu-imgs/coffee/iced-latte.jpg";
 
                 const icedLatteDescription = document.createElement('p');
                     icedLatteDescription.classList.add('menu-items-text');
+                    icedLatteDescription.textContent = "Double shot of Espresso w/ a spoonful of sugar and a dash of vanilla"
 
                 const icedLattePrice = document.createElement('p');
                     icedLattePrice.classList.add('menu-items-text');
+                    icedLattePrice.textContent = "$4.99";
 
                 icedLatte.appendChild(icedLatteTitle);
                 icedLatte.appendChild(icedLatteImg);
@@ -46,16 +54,19 @@ const loadMenuPage = function() {
 
                 const latteTitle = document.createElement('p');
                     latteTitle.classList.add('menu-items-text');
+                    latteTitle.textContent = "Latte";
 
                 const latteImg = document.createElement('img');
                     latteImg.classList.add('menu-imgs');
-                    latteImg.src = "../imgs/menu-imgs/coffee/latte.jpg";
+                    latteImg.src = "../src/imgs/menu-imgs/coffee/latte.jpg";
 
                 const latteDescription = document.createElement('p');
                     latteDescription.classList.add('menu-items-text');
+                    latteDescription.textContent = "Double shot of Espresso w/ steamed milk"
 
                 const lattePrice = document.createElement('p');
                     lattePrice.classList.add('menu-items-text');
+                    lattePrice.textContent = "$3.99";
 
                 latte.appendChild(latteTitle);
                 latte.appendChild(latteImg);
@@ -68,16 +79,19 @@ const loadMenuPage = function() {
 
                 const cappucinoTitle = document.createElement('p');
                     cappucinoTitle.classList.add('menu-items-text');
+                    cappucinoTitle.textContent = "Cappucino";
 
                 const cappucinoImg = document.createElement('img');
                     cappucinoImg.classList.add('menu-imgs');
-                    cappucinoImg.src = "../imgs/menu-imgs/coffee/cappucino.jpg";
+                    cappucinoImg.src = "../src/imgs/menu-imgs/coffee/cappucino.jpg";
 
                 const cappucinoDescription = document.createElement('p');
                     cappucinoDescription.classList.add('menu-items-text');
+                    cappucinoDescription.textContent = "Double shot of Espresso w/ foamed milk";
 
                 const cappucinoPrice = document.createElement('p');
                     cappucinoPrice.classList.add('menu-items-text');
+                    cappucinoPrice.textContent = "$2.99";
 
                 cappucino.appendChild(cappucinoTitle);
                 cappucino.appendChild(cappucinoImg);
@@ -90,16 +104,19 @@ const loadMenuPage = function() {
 
                 const cortadoTitle = document.createElement('p');
                     cortadoTitle.classList.add('menu-items-text');
+                    cortadoTitle.textContent = "Cortado";
 
                 const cortadoImg = document.createElement('img');
                     cortadoImg.classList.add('menu-imgs');
-                    cortadoImg.src = "../imgs/menu-imgs/coffee/cortado.jpg";
+                    cortadoImg.src = "../src/imgs/menu-imgs/coffee/cortado.jpg";
 
                 const cortadoDescription = document.createElement('p');
                     cortadoDescription.classList.add('menu-items-text');
+                    cortadoDescription.textContent = "Shot glass of Espresso w/ honey, vanilla, and some steamed milk";
 
                 const cortadoPrice = document.createElement('p');
                     cortadoPrice.classList.add('menu-items-text');
+                    cortadoPrice.textContent = "$3.50";
 
                 cortado.appendChild(cortadoTitle);
                 cortado.appendChild(cortadoImg);
@@ -113,16 +130,19 @@ const loadMenuPage = function() {
 
                 const americanoTitle = document.createElement('p');
                     americanoTitle.classList.add('menu-items-text');
+                    americanoTitle.textContent = "Americano";
             
                 const americanoImg = document.createElement('img');
                     americanoImg.classList.add('menu-imgs');
-                    americanoImg.src = "../imgs/menu-imgs/coffee/americano.jpg";
+                    americanoImg.src = "../src/imgs/menu-imgs/coffee/americano.jpg";
 
                 const americanoDescription = document.createElement('p');
                     americanoDescription.classList.add('menu-items-text');
+                    americanoDescription.textContent = "Double shot of Espresso w/ 16oz of heated water";
 
                 const americanoPrice = document.createElement('p');
                     americanoPrice.classList.add('menu-items-text');
+                    americanoPrice.textContent = "$2.99";
 
                 americano.appendChild(americanoTitle);
                 americano.appendChild(americanoImg);
@@ -135,16 +155,19 @@ const loadMenuPage = function() {
 
                 const affogatoTitle = document.createElement('p');
                     affogatoTitle.classList.add('menu-items-text');
+                    affogatoTitle.textContent = "Affogato";
 
                 const affogatoImg = document.createElement('img');
                     affogatoImg.classList.add('menu-imgs');
-                    affogatoImg.src = "../imgs/menu-imgs/coffee/affogato.jpg";
+                    affogatoImg.src = "../src/imgs/menu-imgs/coffee/affogato.jpg";
 
                 const affogatoDescription = document.createElement('p');
                     affogatoDescription.classList.add('menu-items-text');
+                    affogatoDescription.textContent = "Double shot of Espresso over 2 scoops of ice-cream";
 
                 const affogatoPrice = document.createElement('p');
                     affogatoPrice.classList.add('menu-items-text');
+                    affogatoPrice.textContent = "$6.99";
 
                 affogato.appendChild(affogatoTitle);
                 affogato.appendChild(affogatoImg);
@@ -156,143 +179,172 @@ const loadMenuPage = function() {
             breakfastOptions.classList.add('food-items');
             breakfastOptions.setAttribute('id', 'breakfast-options');
 
-            const breakfastWaffles = document.createElement('div');
-                breakfastWaffles.classList.add('breakfast-items');
-                breakfastWaffles.setAttribute('id', 'breakfastWaffles');
+            const breakfastTitle = document.createElement('h3');
+                breakfastTitle.classList.add('menu-title');
+                breakfastTitle.textContent = "~ Breakfast ~";
+                breakfastTitle.setAttribute('id', 'breakfast-title');
 
-                const breakfastWafflesTitle = document.createElement('p');
-                    breakfastWafflesTitle.classList.add('menu-items-text');
+            const waffles = document.createElement('div');
+                waffles.classList.add('breakfast-items');
+                waffles.setAttribute('id', 'waffles');
 
-                const breakfastWafflesImg = document.createElement('img');
-                    breakfastWafflesImg.classList.add('menu-imgs');
-                    breakfastWafflesImg.src = "../imgs/menu-imgs/breakfast/waffles.jpg";
+                const wafflesTitle = document.createElement('p');
+                    wafflesTitle.classList.add('menu-items-text');
+                    wafflesTitle.textContent = "Waffles";
 
-                const breakfastWafflesDescription = document.createElement('p');
-                    breakfastWafflesDescription.classList.add('menu-items-text');
+                const wafflesImg = document.createElement('img');
+                    wafflesImg.classList.add('menu-imgs');
+                    wafflesImg.src = "../src/imgs/menu-imgs/breakfast/waffles.jpg";
 
-                const breakfastWafflesPrice = document.createElement('p');
-                    breakfastWafflesPrice.classList.add('menu-items-text');
+                const wafflesDescription = document.createElement('p');
+                    wafflesDescription.classList.add('menu-items-text');
+                    wafflesDescription.textContent = "3 waffles w/ blueberries and maple syrup";
 
-                breakfastWaffles.appendChild(breakfastWafflesTitle);
-                breakfastWaffles.appendChild(breakfastWafflesImg);
-                breakfastWaffles.appendChild(breakfastWafflesDescription);
-                breakfastWaffles.appendChild(breakfastWafflesPrice);
+                const wafflesPrice = document.createElement('p');
+                    wafflesPrice.classList.add('menu-items-text');
+                    wafflesPrice.textContent = "$8.99";
 
-            const breakfastMuffins = document.createElement('div');
-                breakfastMuffins.classList.add('breakfast-items');
-                breakfastMuffins.setAttribute('id', 'breakfastMuffins');
+                waffles.appendChild(wafflesTitle);
+                waffles.appendChild(wafflesImg);
+                waffles.appendChild(wafflesDescription);
+                waffles.appendChild(wafflesPrice);
 
-                const breakfastMuffinsTitle = document.createElement('p');
-                    breakfastMuffinsTitle.classList.add('menu-items-text');
+            const muffins = document.createElement('div');
+                muffins.classList.add('breakfast-items');
+                muffins.setAttribute('id', 'muffins');
 
-                const breakfastMuffinsImg = document.createElement('img');
-                    breakfastMuffinsImg.classList.add('menu-imgs');
-                    breakfastMuffinsImg.src = "../imgs/menu-imgs/breakfast/muffins.jpg";
+                const muffinsTitle = document.createElement('p');
+                    muffinsTitle.classList.add('menu-items-text');
+                    muffinsTitle.textContent = "Muffins";
 
-                const breakfastMuffinsDescription = document.createElement('p');
-                    breakfastMuffinsDescription.classList.add('menu-items-text');
+                const muffinsImg = document.createElement('img');
+                    muffinsImg.classList.add('menu-imgs');
+                    muffinsImg.src = "../src/imgs/menu-imgs/breakfast/muffins.jpg";
 
-                const breakfastMuffinsPrice = document.createElement('p');
-                    breakfastMuffinsPrice.classList.add('menu-items-text');
+                const muffinsDescription = document.createElement('p');
+                    muffinsDescription.classList.add('menu-items-text');
+                    muffinsDescription.textContent = "One large muffin";
 
-                breakfastMuffins.appendChild(breakfastMuffinsTitle);
-                breakfastMuffins.appendChild(breakfastMuffinsImg);
-                breakfastMuffins.appendChild(breakfastMuffinsDescription);
-                breakfastMuffins.appendChild(breakfastMuffinsPrice);
+                const muffinsPrice = document.createElement('p');
+                    muffinsPrice.classList.add('menu-items-text');
+                    muffinsPrice.textContent = "$3.99";
 
-            const breakfastSandwich = document.createElement('div');
-                breakfastSandwich.classList.add('breakfast-items');
-                breakfastSandwich.setAttribute('id', 'breakfastSandwich');
+                muffins.appendChild(muffinsTitle);
+                muffins.appendChild(muffinsImg);
+                muffins.appendChild(muffinsDescription);
+                muffins.appendChild(muffinsPrice);
 
-                const breakfastSandwichTitle = document.createElement('p');
-                    breakfastSandwichTitle.classList.add('menu-items-text');
+            const sandwich = document.createElement('div');
+                sandwich.classList.add('breakfast-items');
+                sandwich.setAttribute('id', 'sandwich');
 
-                const breakfastSandwichImg = document.createElement('img');
-                    breakfastSandwichImg.classList.add('menu-imgs');
-                    breakfastSandwichImg.src = "../imgs/menu-imgs/breakfast/sandwich.jpg";
+                const sandwichTitle = document.createElement('p');
+                    sandwichTitle.classList.add('menu-items-text');
+                    sandwichTitle.textContent = "Sandwich";
 
-                const breakfastSandwichDescription = document.createElement('p');
-                    breakfastSandwichDescription.classList.add('menu-items-text');
+                const sandwichImg = document.createElement('img');
+                    sandwichImg.classList.add('menu-imgs');
+                    sandwichImg.src = "../src/imgs/menu-imgs/breakfast/sandwich.jpg";
 
-                const breakfastSandwichPrice = document.createElement('p');
-                    breakfastSandwichPrice.classList.add('menu-items-text');
+                const sandwichDescription = document.createElement('p');
+                    sandwichDescription.classList.add('menu-items-text');
+                    sandwichDescription.textContent = "Bagel sandwich w/ lettuce, egg, and sausage";
 
-                breakfastSandwich.appendChild(breakfastSandwichTitle);
-                breakfastSandwich.appendChild(breakfastSandwichImg);
-                breakfastSandwich.appendChild(breakfastSandwichDescription);
-                breakfastSandwich.appendChild(breakfastSandwichPrice);
+                const sandwichPrice = document.createElement('p');
+                    sandwichPrice.classList.add('menu-items-text');
+                    sandwichPrice.textContent = "$5.99";
+
+                sandwich.appendChild(sandwichTitle);
+                sandwich.appendChild(sandwichImg);
+                sandwich.appendChild(sandwichDescription);
+                sandwich.appendChild(sandwichPrice);
 
         // Lunch Menu Items
         const lunchOptions = document.createElement('div');
             lunchOptions.classList.add('food-items');
             lunchOptions.setAttribute('id', 'lunch-options');
 
-            const lunchPanini = document.createElement('div');
-                lunchPanini.classList.add('lunch-items');
-                lunchPanini.setAttribute('id', 'lunchPanini');
+            const lunchTitle = document.createElement('h3');
+                lunchTitle.classList.add('menu-title');
+                lunchTitle.textContent = "~ Lunch ~";
+                lunchTitle.setAttribute('id', 'lunch-title');
 
-                const lunchPaniniTitle = document.createElement('p');
-                    lunchPaniniTitle.classList.add('menu-items-text');
+            const panini = document.createElement('div');
+                panini.classList.add('lunch-items');
+                panini.setAttribute('id', 'panini');
 
-                const lunchPaniniImg = document.createElement('img');
-                    lunchPaniniImg.classList.add('menu-imgs');
-                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/panini.jpg";
+                const paniniTitle = document.createElement('p');
+                    paniniTitle.classList.add('menu-items-text');
+                    paniniTitle.textContent = "Panini";
 
-                const lunchPaniniDescription = document.createElement('p');
-                    lunchPaniniDescription.classList.add('menu-items-text');
+                const paniniImg = document.createElement('img');
+                    paniniImg.classList.add('menu-imgs');
+                    paniniImg.src = "../src/imgs/menu-imgs/lunch/panini.jpg";
 
-                const lunchPaniniPrice = document.createElement('p');
-                    lunchPaniniPrice.classList.add('menu-items-text');
+                const paniniDescription = document.createElement('p');
+                    paniniDescription.classList.add('menu-items-text');
+                    paniniDescription.textContent = "Two grilled paninis w/ tomatoes, lettuce, shredded chicken, and cheese";
 
-                lunchPanini.appendChild(lunchPaniniTitle);
-                lunchPanini.appendChild(lunchPaniniImg);
-                lunchPanini.appendChild(lunchPaniniDescription);
-                lunchPanini.appendChild(lunchPaniniPrice);
+                const paniniPrice = document.createElement('p');
+                    paniniPrice.classList.add('menu-items-text');
+                    paniniPrice.textContent = "$7.99";
 
-            const lunchSweetPotatoBowl = document.createElement('div');
-                lunchSweetPotatoBowl.classList.add('lunch-items');
-                lunchSweetPotatoBowl.setAttribute('id', 'lunchSweetPotatoBowl');
+                panini.appendChild(paniniTitle);
+                panini.appendChild(paniniImg);
+                panini.appendChild(paniniDescription);
+                panini.appendChild(paniniPrice);
 
-                const lunchSweetPotatoBowlTitle = document.createElement('p');
-                    lunchSweetPotatoBowlTitle.classList.add('menu-items-text');
+            const sweetPotatoBowl = document.createElement('div');
+                sweetPotatoBowl.classList.add('lunch-items');
+                sweetPotatoBowl.setAttribute('id', 'sweetPotatoBowl');
 
-                const lunchSweetPotatoBowlImg = document.createElement('img');
-                    lunchSweetPotatoBowlImg.classList.add('menu-imgs');
-                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/sweet-potato-bowl.jpg";
+                const sweetPotatoBowlTitle = document.createElement('p');
+                    sweetPotatoBowlTitle.classList.add('menu-items-text');
+                    sweetPotatoBowlTitle.textContent = "Sweet Potato Bowl";
 
-                const lunchSweetPotatoBowlDescription = document.createElement('p');
-                    lunchSweetPotatoBowlDescription.classList.add('menu-items-text');
+                const sweetPotatoBowlImg = document.createElement('img');
+                    sweetPotatoBowlImg.classList.add('menu-imgs');
+                    sweetPotatoBowlImg.src = "../src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg";
 
-                const lunchSweetPotatoBowlPrice = document.createElement('p');
-                    lunchSweetPotatoBowlPrice.classList.add('menu-items-text');
+                const sweetPotatoBowlDescription = document.createElement('p');
+                    sweetPotatoBowlDescription.classList.add('menu-items-text');
+                    sweetPotatoBowlDescription.textContent = "Bowl of sweet potato fries topped w/ sour cream, tomatoes, green onions, spinach, and valentina";
 
-                lunchSweetPotatoBowl.appendChild(lunchSweetPotatoBowlTitle);
-                lunchSweetPotatoBowl.appendChild(lunchSweetPotatoBowlImg);
-                lunchSweetPotatoBowl.appendChild(lunchSweetPotatoBowlDescription);
-                lunchSweetPotatoBowl.appendChild(lunchSweetPotatoBowlPrice);
+                const sweetPotatoBowlPrice = document.createElement('p');
+                    sweetPotatoBowlPrice.classList.add('menu-items-text');
+                    sweetPotatoBowlPrice.textContent = "$8.99";
 
-            const lunchPizza = document.createElement('div');
-                lunchPizza.classList.add('lunch-items');
-                lunchPizza.setAttribute('id', 'lunchPizza');
+                sweetPotatoBowl.appendChild(sweetPotatoBowlTitle);
+                sweetPotatoBowl.appendChild(sweetPotatoBowlImg);
+                sweetPotatoBowl.appendChild(sweetPotatoBowlDescription);
+                sweetPotatoBowl.appendChild(sweetPotatoBowlPrice);
 
-                const lunchPizzaTitle = document.createElement('p');
-                    lunchPizzaTitle.classList.add('menu-items-text');
+            const pizza = document.createElement('div');
+                pizza.classList.add('lunch-items');
+                pizza.setAttribute('id', 'pizza');
 
-                const lunchPizzaImg = document.createElement('img');
-                    lunchPizzaImg.classList.add('menu-imgs');
-                    lunchPaniniImg.src = "../imgs/menu-imgs/lunch/pizza.jpg";
+                const pizzaTitle = document.createElement('p');
+                    pizzaTitle.classList.add('menu-items-text');
+                    pizzaTitle.textContent = "Pizza";
 
-                const lunchPizzaDescription = document.createElement('p');
-                    lunchPizzaDescription.classList.add('menu-items-text');
+                const pizzaImg = document.createElement('img');
+                    pizzaImg.classList.add('menu-imgs');
+                    pizzaImg.src = "../src/imgs/menu-imgs/lunch/pizza.jpg";
 
-                const lunchPizzaPrice = document.createElement('p');
-                    lunchPizzaPrice.classList.add('menu-items-text');
+                const pizzaDescription = document.createElement('p');
+                    pizzaDescription.classList.add('menu-items-text');
+                    pizzaDescription.textContent = "One 12\" cheese pizza topped with tomatoes, olives, and red peppers";
 
-                lunchPizza.appendChild(lunchPizzaTitle);
-                lunchPizza.appendChild(lunchPizzaImg);
-                lunchPizza.appendChild(lunchPizzaDescription);
-                lunchPizza.appendChild(lunchPizzaPrice);
+                const pizzaPrice = document.createElement('p');
+                    pizzaPrice.classList.add('menu-items-text');
+                    pizzaPrice.textContent = "$9";
 
+                pizza.appendChild(pizzaTitle);
+                pizza.appendChild(pizzaImg);
+                pizza.appendChild(pizzaDescription);
+                pizza.appendChild(pizzaPrice);
+
+        coffeeSpecials.appendChild(coffeeTitle);
         coffeeSpecials.appendChild(icedLatte);
         coffeeSpecials.appendChild(latte);
         coffeeSpecials.appendChild(cappucino);
@@ -300,13 +352,15 @@ const loadMenuPage = function() {
         coffeeSpecials.appendChild(americano);
         coffeeSpecials.appendChild(affogato);
 
-        breakfastOptions.appendChild(breakfastWaffles);
-        breakfastOptions.appendChild(breakfastMuffins);
-        breakfastOptions.appendChild(breakfastSandwich);
+        breakfastOptions.appendChild(breakfastTitle);
+        breakfastOptions.appendChild(waffles);
+        breakfastOptions.appendChild(muffins);
+        breakfastOptions.appendChild(sandwich);
 
-        lunchOptions.appendChild(lunchPanini);
-        lunchOptions.appendChild(lunchSweetPotatoBowl);
-        lunchOptions.appendChild(lunchPizza);
+        lunchOptions.appendChild(lunchTitle);
+        lunchOptions.appendChild(panini);
+        lunchOptions.appendChild(sweetPotatoBowl);
+        lunchOptions.appendChild(pizza);
 
     menuContainer.appendChild(coffeeSpecials);
     menuContainer.appendChild(breakfastOptions);
