@@ -27,7 +27,7 @@ const loadMenuPage = function() {
                 icedLatte.setAttribute('id', 'iced-latte');
 
                 const icedLatteTitle = document.createElement('p');
-                    icedLatteTitle.classList.add('menu-items-text');
+                    icedLatteTitle.classList.add('menu-title-text');
                     icedLatteTitle.textContent = "Iced Latte"
 
                 const icedLatteImg = document.createElement('img');
@@ -53,7 +53,7 @@ const loadMenuPage = function() {
                 latte.setAttribute('id', 'latte');
 
                 const latteTitle = document.createElement('p');
-                    latteTitle.classList.add('menu-items-text');
+                    latteTitle.classList.add('menu-title-text');
                     latteTitle.textContent = "Latte";
 
                 const latteImg = document.createElement('img');
@@ -78,7 +78,7 @@ const loadMenuPage = function() {
                 cappucino.setAttribute('id', 'cappucino');
 
                 const cappucinoTitle = document.createElement('p');
-                    cappucinoTitle.classList.add('menu-items-text');
+                    cappucinoTitle.classList.add('menu-title-text');
                     cappucinoTitle.textContent = "Cappucino";
 
                 const cappucinoImg = document.createElement('img');
@@ -103,7 +103,7 @@ const loadMenuPage = function() {
                 cortado.setAttribute('id', 'cortado');
 
                 const cortadoTitle = document.createElement('p');
-                    cortadoTitle.classList.add('menu-items-text');
+                    cortadoTitle.classList.add('menu-title-text');
                     cortadoTitle.textContent = "Cortado";
 
                 const cortadoImg = document.createElement('img');
@@ -129,7 +129,7 @@ const loadMenuPage = function() {
                 americano.setAttribute('id', 'americano');
 
                 const americanoTitle = document.createElement('p');
-                    americanoTitle.classList.add('menu-items-text');
+                    americanoTitle.classList.add('menu-title-text');
                     americanoTitle.textContent = "Americano";
             
                 const americanoImg = document.createElement('img');
@@ -154,7 +154,7 @@ const loadMenuPage = function() {
                 affogato.setAttribute('id', 'affogato');
 
                 const affogatoTitle = document.createElement('p');
-                    affogatoTitle.classList.add('menu-items-text');
+                    affogatoTitle.classList.add('menu-title-text');
                     affogatoTitle.textContent = "Affogato";
 
                 const affogatoImg = document.createElement('img');
@@ -189,7 +189,7 @@ const loadMenuPage = function() {
                 waffles.setAttribute('id', 'waffles');
 
                 const wafflesTitle = document.createElement('p');
-                    wafflesTitle.classList.add('menu-items-text');
+                    wafflesTitle.classList.add('menu-title-text');
                     wafflesTitle.textContent = "Waffles";
 
                 const wafflesImg = document.createElement('img');
@@ -214,7 +214,7 @@ const loadMenuPage = function() {
                 muffins.setAttribute('id', 'muffins');
 
                 const muffinsTitle = document.createElement('p');
-                    muffinsTitle.classList.add('menu-items-text');
+                    muffinsTitle.classList.add('menu-title-text');
                     muffinsTitle.textContent = "Muffins";
 
                 const muffinsImg = document.createElement('img');
@@ -239,7 +239,7 @@ const loadMenuPage = function() {
                 sandwich.setAttribute('id', 'sandwich');
 
                 const sandwichTitle = document.createElement('p');
-                    sandwichTitle.classList.add('menu-items-text');
+                    sandwichTitle.classList.add('menu-title-text');
                     sandwichTitle.textContent = "Sandwich";
 
                 const sandwichImg = document.createElement('img');
@@ -274,7 +274,7 @@ const loadMenuPage = function() {
                 panini.setAttribute('id', 'panini');
 
                 const paniniTitle = document.createElement('p');
-                    paniniTitle.classList.add('menu-items-text');
+                    paniniTitle.classList.add('menu-title-text');
                     paniniTitle.textContent = "Panini";
 
                 const paniniImg = document.createElement('img');
@@ -299,7 +299,7 @@ const loadMenuPage = function() {
                 sweetPotatoBowl.setAttribute('id', 'sweetPotatoBowl');
 
                 const sweetPotatoBowlTitle = document.createElement('p');
-                    sweetPotatoBowlTitle.classList.add('menu-items-text');
+                    sweetPotatoBowlTitle.classList.add('menu-title-text');
                     sweetPotatoBowlTitle.textContent = "Sweet Potato Bowl";
 
                 const sweetPotatoBowlImg = document.createElement('img');
@@ -324,7 +324,7 @@ const loadMenuPage = function() {
                 pizza.setAttribute('id', 'pizza');
 
                 const pizzaTitle = document.createElement('p');
-                    pizzaTitle.classList.add('menu-items-text');
+                    pizzaTitle.classList.add('menu-title-text');
                     pizzaTitle.textContent = "Pizza";
 
                 const pizzaImg = document.createElement('img');
