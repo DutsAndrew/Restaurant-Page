@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/DutsAndrew/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/DutsAndrew/Restaurant-Page#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "style-loader": "^3.3.1",
