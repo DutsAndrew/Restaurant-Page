@@ -1,4 +1,18 @@
-import { assignWith } from "lodash";
+// Img imports
+import icedLatteImgImport from "../imgs/menu-imgs/coffee/iced-latte.jpg";
+import latteImgImport from "../imgs/menu-imgs/coffee/latte.jpg";
+import cappucinoImgImport from "../imgs/menu-imgs/coffee/cappucino.jpg";
+import cortadoImgImport from "../imgs/menu-imgs/coffee/cortado.jpg";
+import americanoImgImport from "../imgs/menu-imgs/coffee/americano.jpg";
+import affogatoImgImport from "../imgs/menu-imgs/coffee/affogato.jpg";
+
+import wafflesImgImport from "../imgs/menu-imgs/breakfast/waffles.jpg";
+import muffinsImgImport from "../imgs/menu-imgs/breakfast/muffins.jpg";
+import sandwichImgImport from "../imgs/menu-imgs/breakfast/sandwich.jpg";
+
+import paniniImgImport from "../imgs/menu-imgs/lunch/panini.jpg";
+import sweetPotatoBowlImgImport from "../imgs/menu-imgs/lunch/sweet-potato-bowl.jpg";
+import pizzaImgImport from "../imgs/menu-imgs/lunch/pizza.jpg";
 
 export { 
     loadMenuPage,
@@ -32,7 +46,7 @@ const loadMenuPage = function() {
 
                 const icedLatteImg = document.createElement('img');
                     icedLatteImg.classList.add('menu-imgs');
-                    icedLatteImg.src = "../src/imgs/menu-imgs/coffee/iced-latte.jpg";
+                    icedLatteImg.src = icedLatteImgImport;
 
                 const icedLatteDescription = document.createElement('p');
                     icedLatteDescription.classList.add('menu-items-text');
@@ -58,7 +72,7 @@ const loadMenuPage = function() {
 
                 const latteImg = document.createElement('img');
                     latteImg.classList.add('menu-imgs');
-                    latteImg.src = "../src/imgs/menu-imgs/coffee/latte.jpg";
+                    latteImg.src = latteImgImport;
 
                 const latteDescription = document.createElement('p');
                     latteDescription.classList.add('menu-items-text');
@@ -83,7 +97,7 @@ const loadMenuPage = function() {
 
                 const cappucinoImg = document.createElement('img');
                     cappucinoImg.classList.add('menu-imgs');
-                    cappucinoImg.src = "../src/imgs/menu-imgs/coffee/cappucino.jpg";
+                    cappucinoImg.src = cappucinoImgImport;
 
                 const cappucinoDescription = document.createElement('p');
                     cappucinoDescription.classList.add('menu-items-text');
@@ -108,7 +122,7 @@ const loadMenuPage = function() {
 
                 const cortadoImg = document.createElement('img');
                     cortadoImg.classList.add('menu-imgs');
-                    cortadoImg.src = "../src/imgs/menu-imgs/coffee/cortado.jpg";
+                    cortadoImg.src = cortadoImgImport;
 
                 const cortadoDescription = document.createElement('p');
                     cortadoDescription.classList.add('menu-items-text');
@@ -134,7 +148,7 @@ const loadMenuPage = function() {
             
                 const americanoImg = document.createElement('img');
                     americanoImg.classList.add('menu-imgs');
-                    americanoImg.src = "../src/imgs/menu-imgs/coffee/americano.jpg";
+                    americanoImg.src = americanoImgImport;
 
                 const americanoDescription = document.createElement('p');
                     americanoDescription.classList.add('menu-items-text');
@@ -159,7 +173,7 @@ const loadMenuPage = function() {
 
                 const affogatoImg = document.createElement('img');
                     affogatoImg.classList.add('menu-imgs');
-                    affogatoImg.src = "../src/imgs/menu-imgs/coffee/affogato.jpg";
+                    affogatoImg.src = affogatoImgImport;
 
                 const affogatoDescription = document.createElement('p');
                     affogatoDescription.classList.add('menu-items-text');
@@ -194,7 +208,7 @@ const loadMenuPage = function() {
 
                 const wafflesImg = document.createElement('img');
                     wafflesImg.classList.add('menu-imgs');
-                    wafflesImg.src = "../src/imgs/menu-imgs/breakfast/waffles.jpg";
+                    wafflesImg.src = wafflesImgImport;
 
                 const wafflesDescription = document.createElement('p');
                     wafflesDescription.classList.add('menu-items-text');
@@ -219,7 +233,7 @@ const loadMenuPage = function() {
 
                 const muffinsImg = document.createElement('img');
                     muffinsImg.classList.add('menu-imgs');
-                    muffinsImg.src = "../src/imgs/menu-imgs/breakfast/muffins.jpg";
+                    muffinsImg.src = muffinsImgImport;
 
                 const muffinsDescription = document.createElement('p');
                     muffinsDescription.classList.add('menu-items-text');
@@ -244,7 +258,7 @@ const loadMenuPage = function() {
 
                 const sandwichImg = document.createElement('img');
                     sandwichImg.classList.add('menu-imgs');
-                    sandwichImg.src = "../src/imgs/menu-imgs/breakfast/sandwich.jpg";
+                    sandwichImg.src = sandwichImgImport;
 
                 const sandwichDescription = document.createElement('p');
                     sandwichDescription.classList.add('menu-items-text');
@@ -279,7 +293,7 @@ const loadMenuPage = function() {
 
                 const paniniImg = document.createElement('img');
                     paniniImg.classList.add('menu-imgs');
-                    paniniImg.src = "../src/imgs/menu-imgs/lunch/panini.jpg";
+                    paniniImg.src = paniniImgImport;
 
                 const paniniDescription = document.createElement('p');
                     paniniDescription.classList.add('menu-items-text');
@@ -304,7 +318,7 @@ const loadMenuPage = function() {
 
                 const sweetPotatoBowlImg = document.createElement('img');
                     sweetPotatoBowlImg.classList.add('menu-imgs');
-                    sweetPotatoBowlImg.src = "../src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg";
+                    sweetPotatoBowlImg.src = sweetPotatoBowlImgImport;
 
                 const sweetPotatoBowlDescription = document.createElement('p');
                     sweetPotatoBowlDescription.classList.add('menu-items-text');
@@ -329,7 +343,7 @@ const loadMenuPage = function() {
 
                 const pizzaImg = document.createElement('img');
                     pizzaImg.classList.add('menu-imgs');
-                    pizzaImg.src = "../src/imgs/menu-imgs/lunch/pizza.jpg";
+                    pizzaImg.src = pizzaImgImport;
 
                 const pizzaDescription = document.createElement('p');
                     pizzaDescription.classList.add('menu-items-text');
