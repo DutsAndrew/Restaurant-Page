@@ -1,3 +1,11 @@
+Restaurant Page Project
+
+    This was a project to practice and demonstrate my ability to use and work with Webpack within JavaScript. 
+    
+    Webpack was quite an adjustment and took some time, but getting comfortable with importing/exporting functions and designating different css and js files for compartmentalized programming made building this project a lot easier. 
+    
+    I noticed with my last project (Tic-Tac-Toe) that it was getting burdensome to scroll through code, so I had to click through the preview menu, but knowing exactly where things where in their folders made this a lot easier and cleaner to build.
+
 # Restaurant-Page
 
 1. Photo by Hannah Wei on Unsplash - Banner Img
