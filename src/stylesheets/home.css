@@ -21,9 +21,11 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1rem;
-    margin: 0;
-    font-size: 3em;  
+    margin: 10px;
+    font-size: 5em;  
+    background-color: white;
+    opacity: 75%;
+    border-radius: 5%;
 }
 
 .header-text {
@@ -56,6 +58,7 @@ body {
     height: 2.5em;
     color: black;
     background-color: white;
+    opacity: 75%;
 }
 
 .home-svg {

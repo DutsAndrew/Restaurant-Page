@@ -8,6 +8,7 @@ const loadAboutPage = function() {
 
     const aboutContainer = document.createElement('div');
         aboutContainer.classList.add('about-container');
+        aboutContainer.setAttribute('id', 'about-information');
 
         // Story about Skrrt Café
         const aboutStoryContainer = document.createElement('div');

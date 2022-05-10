@@ -12,7 +12,7 @@
 }
 
 .about-story {
-    font-size: 1.75rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -24,14 +24,14 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 15vh;
+    height: 20vh;
   }
   
   table {
       border-collapse: collapse;
       border: 2px solid rgb(200,200,200);
       letter-spacing: 1px;
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-weight: 500;
     }
     

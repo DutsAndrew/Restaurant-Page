@@ -1,8 +1,9 @@
 export {
-    loadHomePage,
+    loadNavBar,
+    loadHeroImage,
 };
 
-const loadHomePage = () => {
+const loadNavBar = function() {
     
     // content items and Website Title
     const content = document.querySelector('#content');
@@ -58,11 +59,6 @@ const loadHomePage = () => {
             aboutButton.classList.add('menu-buttons');
             aboutButton.setAttribute('id', 'about-button');
 
-    // Banner Image for Main Page
-    const bannerImage = document.createElement('div');
-        bannerImage.classList.add('banner-img');
-        bannerImage.setAttribute('id', 'home-page-img');
-
     buttonContainer.appendChild(homeButton);
     buttonContainer.appendChild(menuButton);
     buttonContainer.appendChild(aboutButton);
@@ -71,5 +67,14 @@ const loadHomePage = () => {
     navBar.appendChild(buttonContainer);
 
     content.appendChild(navBar);
-    content.appendChild(bannerImage);
+};
+
+const loadHeroImage = function() {
+
+    // Banner Image for Main Page
+    const bannerImage = document.createElement('div');
+        bannerImage.classList.add('banner-img');
+        bannerImage.setAttribute('id', 'home-page-img');
+
+        content.appendChild(bannerImage);
 };
