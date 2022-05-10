@@ -1,3 +1,5 @@
+require.context("/src/imgs/", true, /\.(png|svg|jpg|gif)$/);
+
 import _ from 'lodash';
 import './stylesheets/home.css';
 import './stylesheets/menu.css';

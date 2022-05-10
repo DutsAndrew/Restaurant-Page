@@ -27,7 +27,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/home.svg */ \"./src/imgs/svgs/home.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/menu.svg */ \"./src/imgs/svgs/menu.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/about.svg */ \"./src/imgs/svgs/about.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/coffee-shop-img.jpg */ \"./src/imgs/coffee-shop-img.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    font-family: 'Courier New', Courier, monospace;\\n}\\n\\n.content {\\n    display: flex;\\n    flex-flow: column wrap;\\n    align-content: center;\\n    justify-content: flex-start;\\n    align-items: center;\\n    align-content: center;\\n    flex: 1 1 auto;\\n    background-color: #CCE6F4;\\n    width: 100vw;\\n    height: 100vh;\\n    overflow: scroll;\\n}\\n\\n.content-text {\\n    display: flex;\\n    flex-flow: column nowrap;\\n    align-items: center;\\n    justify-content: center;\\n    margin: 10px;\\n    font-size: 5em;  \\n    background-color: white;\\n    opacity: 75%;\\n    border-radius: 5%;\\n}\\n\\n.header-text {\\n    display: flex;\\n    flex-flow: column nowrap;\\n    margin: auto;\\n    margin-top: 5px;\\n    color: black;\\n    background-color: white;\\n    font-size: 4em;\\n    margin-bottom: 10px;\\n}\\n\\n.menu-button-container {\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 0.8rem;\\n}\\n\\n.menu-buttons {\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: center;\\n    align-content: center;\\n    align-items: center;\\n    margin-bottom: 10px;\\n    width: 9em;\\n    height: 2.5em;\\n    color: black;\\n    background-color: white;\\n    opacity: 75%;\\n}\\n\\n.home-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\\n.menu-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n}\\n\\n.about-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n}\\n\\n.banner-img {\\n    background: center / cover no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n    display: flex;\\n    flex-flow: column nowrap;\\n    justify-content: center;\\n    align-content: center;\\n    justify-items: center;\\n    align-items: center;\\n    width: 80vw;\\n    height: 80vh;\\n}\\n\\n/* Animation Styling */\\nbutton:hover {\\n    background-color: #CCE6F4;\\n    transform: scale(1.1);\\n    font-weight: 700;\\n}\\n\\nbutton:active {\\n  background-color: #CCE6F4;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/stylesheets/home.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/home.svg */ \"./src/imgs/svgs/home.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/menu.svg */ \"./src/imgs/svgs/menu.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/svgs/about.svg */ \"./src/imgs/svgs/about.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/coffee-shop-img.jpg */ \"./src/imgs/coffee-shop-img.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    font-family: 'Courier New', Courier, monospace;\\n}\\n\\n.content {\\n    display: flex;\\n    flex-flow: column wrap;\\n    align-content: center;\\n    justify-content: flex-start;\\n    align-items: center;\\n    align-content: center;\\n    flex: 1 1 auto;\\n    background-color: #CCE6F4;\\n    width: 100vw;\\n    height: 100vh;\\n    overflow: scroll;\\n}\\n\\n.content-text {\\n    display: flex;\\n    flex-flow: column nowrap;\\n    align-items: center;\\n    justify-content: center;\\n    margin: 10px;\\n    font-size: 5em;  \\n    background-color: white;\\n    opacity: 75%;\\n    border-radius: 5%;\\n}\\n\\n.header-text {\\n    display: flex;\\n    flex-flow: column nowrap;\\n    margin: auto;\\n    margin-top: 5px;\\n    color: black;\\n    background-color: white;\\n    font-size: 4em;\\n    margin-bottom: 10px;\\n}\\n\\n.menu-button-container {\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 0.8rem;\\n}\\n\\n.menu-buttons {\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: center;\\n    align-content: center;\\n    align-items: center;\\n    margin-bottom: 10px;\\n    width: 9em;\\n    height: 2.5em;\\n    color: black;\\n    background-color: white;\\n    opacity: 75%;\\n}\\n\\n.home-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\\n.menu-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n}\\n\\n.about-svg {\\n    display: flex;\\n    width: 2rem;\\n    height: 2rem;\\n    background: center no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n}\\n\\n.banner-img {\\n    background: center / cover no-repeat url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n    display: flex;\\n    flex-flow: column nowrap;\\n    justify-content: center;\\n    align-content: center;\\n    justify-items: center;\\n    align-items: center;\\n    width: 70vw;\\n    height: 70vh;\\n}\\n\\n/* Animation Styling */\\nbutton:hover {\\n    background-color: #CCE6F4;\\n    transform: scale(1.1);\\n    font-weight: 700;\\n}\\n\\nbutton:active {\\n  background-color: #CCE6F4;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/stylesheets/home.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -217,6 +217,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/imgs sync recursive \\.(png%7Csvg%7Cjpg%7Cgif)$":
+/*!***************************************************!*\
+  !*** ./src/imgs/ sync \.(png%7Csvg%7Cjpg%7Cgif)$ ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var map = {\n\t\"./coffee-shop-img.jpg\": \"./src/imgs/coffee-shop-img.jpg\",\n\t\"./menu-imgs/breakfast/muffins.jpg\": \"./src/imgs/menu-imgs/breakfast/muffins.jpg\",\n\t\"./menu-imgs/breakfast/sandwich.jpg\": \"./src/imgs/menu-imgs/breakfast/sandwich.jpg\",\n\t\"./menu-imgs/breakfast/waffles.jpg\": \"./src/imgs/menu-imgs/breakfast/waffles.jpg\",\n\t\"./menu-imgs/coffee/affogato.jpg\": \"./src/imgs/menu-imgs/coffee/affogato.jpg\",\n\t\"./menu-imgs/coffee/americano.jpg\": \"./src/imgs/menu-imgs/coffee/americano.jpg\",\n\t\"./menu-imgs/coffee/cappucino.jpg\": \"./src/imgs/menu-imgs/coffee/cappucino.jpg\",\n\t\"./menu-imgs/coffee/cortado.jpg\": \"./src/imgs/menu-imgs/coffee/cortado.jpg\",\n\t\"./menu-imgs/coffee/iced-latte.jpg\": \"./src/imgs/menu-imgs/coffee/iced-latte.jpg\",\n\t\"./menu-imgs/coffee/latte.jpg\": \"./src/imgs/menu-imgs/coffee/latte.jpg\",\n\t\"./menu-imgs/lunch/panini.jpg\": \"./src/imgs/menu-imgs/lunch/panini.jpg\",\n\t\"./menu-imgs/lunch/pizza.jpg\": \"./src/imgs/menu-imgs/lunch/pizza.jpg\",\n\t\"./menu-imgs/lunch/sweet-potato-bowl.jpg\": \"./src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg\",\n\t\"./svgs/about.svg\": \"./src/imgs/svgs/about.svg\",\n\t\"./svgs/home.svg\": \"./src/imgs/svgs/home.svg\",\n\t\"./svgs/menu.svg\": \"./src/imgs/svgs/menu.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/imgs sync recursive \\\\.(png%7Csvg%7Cjpg%7Cgif)$\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/_sync_\\.(png%257Csvg%257Cjpg%257Cgif)$?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -224,7 +234,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _stylesheets_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylesheets/home.css */ \"./src/stylesheets/home.css\");\n/* harmony import */ var _stylesheets_menu_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./stylesheets/menu.css */ \"./src/stylesheets/menu.css\");\n/* harmony import */ var _stylesheets_about_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./stylesheets/about.css */ \"./src/stylesheets/about.css\");\n/* harmony import */ var _functions_home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./functions/home.js */ \"./src/functions/home.js\");\n/* harmony import */ var _functions_menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./functions/menu.js */ \"./src/functions/menu.js\");\n/* harmony import */ var _functions_about_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./functions/about.js */ \"./src/functions/about.js\");\n\n\n\n\n\n\n\n\n\n// Default Load\n(0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadNavBar)();\n(0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadHeroImage)();\n\n// JS to transition between Home, Menu, and About Pages\n    // DOM elements that remain on the page\n        const content = document.querySelector('#content');\n\n        // Home Button Handler\n        const homeHandler = document.querySelector('#home-button');\n            homeHandler.addEventListener('click', switchToHome);\n            function switchToHome() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadHeroImage)();\n            };\n\n        // Menu Button Handler\n        const menuHandler = document.querySelector('#menu-button');\n            menuHandler.addEventListener('click', switchToMenu);\n            function switchToMenu() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_menu_js__WEBPACK_IMPORTED_MODULE_5__.loadMenuPage)();\n            };\n\n        // About Button Handler\n        const aboutHandler = document.querySelector('#about-button');\n            aboutHandler.addEventListener('click', switchToAbout);\n            function switchToAbout() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_about_js__WEBPACK_IMPORTED_MODULE_6__.loadAboutPage)();\n            };\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _stylesheets_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylesheets/home.css */ \"./src/stylesheets/home.css\");\n/* harmony import */ var _stylesheets_menu_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./stylesheets/menu.css */ \"./src/stylesheets/menu.css\");\n/* harmony import */ var _stylesheets_about_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./stylesheets/about.css */ \"./src/stylesheets/about.css\");\n/* harmony import */ var _functions_home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./functions/home.js */ \"./src/functions/home.js\");\n/* harmony import */ var _functions_menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./functions/menu.js */ \"./src/functions/menu.js\");\n/* harmony import */ var _functions_about_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./functions/about.js */ \"./src/functions/about.js\");\n__webpack_require__(\"./src/imgs sync recursive \\\\.(png%7Csvg%7Cjpg%7Cgif)$\");\n\n\n\n\n\n\n\n\n\n\n// Default Load\n(0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadNavBar)();\n(0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadHeroImage)();\n\n// JS to transition between Home, Menu, and About Pages\n    // DOM elements that remain on the page\n        const content = document.querySelector('#content');\n\n        // Home Button Handler\n        const homeHandler = document.querySelector('#home-button');\n            homeHandler.addEventListener('click', switchToHome);\n            function switchToHome() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_home_js__WEBPACK_IMPORTED_MODULE_4__.loadHeroImage)();\n            };\n\n        // Menu Button Handler\n        const menuHandler = document.querySelector('#menu-button');\n            menuHandler.addEventListener('click', switchToMenu);\n            function switchToMenu() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_menu_js__WEBPACK_IMPORTED_MODULE_5__.loadMenuPage)();\n            };\n\n        // About Button Handler\n        const aboutHandler = document.querySelector('#about-button');\n            aboutHandler.addEventListener('click', switchToAbout);\n            function switchToAbout() {\n                while (content.children.length > 1) {\n                    content.children[1].remove();\n                }\n                (0,_functions_about_js__WEBPACK_IMPORTED_MODULE_6__.loadAboutPage)();\n            };\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -236,6 +246,138 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"49597436e92735994666.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/coffee-shop-img.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/breakfast/muffins.jpg":
+/*!**************************************************!*\
+  !*** ./src/imgs/menu-imgs/breakfast/muffins.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"c5f375ba5d42e604f2ca.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/breakfast/muffins.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/breakfast/sandwich.jpg":
+/*!***************************************************!*\
+  !*** ./src/imgs/menu-imgs/breakfast/sandwich.jpg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b1f4bea00137dc53a76d.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/breakfast/sandwich.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/breakfast/waffles.jpg":
+/*!**************************************************!*\
+  !*** ./src/imgs/menu-imgs/breakfast/waffles.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"64ebc2c4c4dd51d80381.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/breakfast/waffles.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/affogato.jpg":
+/*!************************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/affogato.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"a116422caee3edf8646a.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/affogato.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/americano.jpg":
+/*!*************************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/americano.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"5c4042b90b340b6e8e9d.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/americano.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/cappucino.jpg":
+/*!*************************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/cappucino.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"11757e0a4e5ba3bdf7c2.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/cappucino.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/cortado.jpg":
+/*!***********************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/cortado.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"bdc643ad2693e2f58287.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/cortado.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/iced-latte.jpg":
+/*!**************************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/iced-latte.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"059320e25f568aa91bf7.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/iced-latte.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/coffee/latte.jpg":
+/*!*********************************************!*\
+  !*** ./src/imgs/menu-imgs/coffee/latte.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"4dbdf8e60c9d5914279e.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/coffee/latte.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/lunch/panini.jpg":
+/*!*********************************************!*\
+  !*** ./src/imgs/menu-imgs/lunch/panini.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"a531f7ba8e91f71261f3.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/lunch/panini.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/lunch/pizza.jpg":
+/*!********************************************!*\
+  !*** ./src/imgs/menu-imgs/lunch/pizza.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"73522ce9a065823e66c8.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/lunch/pizza.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg":
+/*!********************************************************!*\
+  !*** ./src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"d4a15f0ca98e2b520fa6.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/menu-imgs/lunch/sweet-potato-bowl.jpg?");
 
 /***/ }),
 
